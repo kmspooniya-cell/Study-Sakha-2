@@ -63,7 +63,7 @@ const initialState: State = {
       subject: 'Polity',
       updatedAt: Date.now() - 1000 * 60 * 60 * 20,
       body:
-        'Habeas Corpus — to produce the body; issued against both public authorities and private individuals.\n\nMandamus — command to a public official to perform a duty; not available against the President or Governors.\n\nProhibition — issued by a higher court to a lower court to stop exceeding jurisdiction; available only against judicial and quasi-judicial bodies.\n\nCertiorari — to transfer a case or quash an order; now available against administrative authorities affecting rights.\n\nQuo Warranto — asks by what authority a person holds a public office; can be sought by any interested person.',
+        'Habeas Corpus — to produce the body; issued against both public authorities and private individuals.\n\nMandamus — command to a public official to perform a duty; not available against private persons.\n\nCertiorari — quash an order passed without jurisdiction.\n\nProhibition — prevent a lower court from exceeding jurisdiction.\n\nArticle 32 is the protector of rights and the Supreme Court is the guardian of the Constitution.',
     },
     {
       id: 'un2',
@@ -85,7 +85,7 @@ const initialState: State = {
     r3: { percent: 22, at: Date.now() - 1000 * 60 * 60 * 30, title: 'Monetary Policy & Inflation Targeting' },
   },
   planDone: {},
-  studyLog: seedStudyLog(),
+  studyLog: {},
   results: [],
   chat: [],
   notifications: SEED_NOTIFICATIONS,
